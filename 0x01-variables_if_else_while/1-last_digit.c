@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - print if the number is positive, zero or negative
+ *main - Entry point
  *
- * description using the main function
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
