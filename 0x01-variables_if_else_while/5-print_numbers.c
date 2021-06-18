@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
+ *main - this program prints numbers of base (10)
  *
- *this program prints numbers of base 10
- *Return: 0
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
