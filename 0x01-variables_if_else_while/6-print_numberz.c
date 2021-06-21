@@ -1,21 +1,17 @@
 #include <stdio.h>
+
 /**
- *main - print if the number is postive, zero, or negative
- *Description: using the main function
- * Return: 0
+ *main - this program prints numbers of base (10)
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	char h;
+	int i;
 
-	for (h = '0' ; h <= '9' ; h++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(h);
-
-		if (h != '9')
-		{
-			putchar(',');
-		}
+		putchar(i);
 	}
 	return (0);
 }
