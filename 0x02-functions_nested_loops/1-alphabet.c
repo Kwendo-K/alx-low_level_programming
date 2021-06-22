@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *main - check the code for ALX Scholl students.
+ *print_alphabet -  function to print alphabet
  *
  *Return: 0.
  */
