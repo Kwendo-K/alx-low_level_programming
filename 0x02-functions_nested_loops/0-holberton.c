@@ -9,12 +9,12 @@
 int main(void)
 {
 	char h[] = "holberton";
-	unsigned int c;
+	int c;
 
-	for (c = 0; < sizeof(h); c++)
+	for (c = 0; c < 9; c++)
 	{
 		_putchar(h[c]);
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }
