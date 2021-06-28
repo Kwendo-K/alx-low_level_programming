@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * a function that swaps the values of two integers
+ * swap_int - swap the value of two integers
  * @a first parameter
  * @b second parameter
  * Description: swap_int swaps the values of *a & *b
