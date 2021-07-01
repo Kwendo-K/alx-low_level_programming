@@ -2,11 +2,9 @@
 
 /**
  * *_strcat() - a function to concatinate two strings
- *
  * @*dest first parameter
  * @*src second parammeter
- * 
- * Return: a pointer to the resulting string dest
+ * Return: string dest
  */
 char *_strcat(char *dest, char *src)
 {
