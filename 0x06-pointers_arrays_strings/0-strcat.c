@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
- * char *_strcat - concatinate two strings
+ * _strcat - append src string to dest string
  *
  * @*dest first parameter
  * @*src second parammeter
- * Description - a function that concatinates two strings
- * Return: Always 0.
+ * 
+ * Return: a pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
 {
