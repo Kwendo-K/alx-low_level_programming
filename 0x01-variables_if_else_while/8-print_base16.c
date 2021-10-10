@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 /**
- * main printing numbers of base 16
+ *main - Prints hexadecimal digits using only putchar
  *
- * return 0 (success)
- */
-
+ *Description: Prints hexadecimal digits using only putchar
+ *Return: 0
+*/
 int main(void)
 {
-	int a;
+	int i;
 
-	for (a = 0; a <= 16 ; a++)
+	for (i = 48; i <= 102; i++)
 	{
-		putchar(a);
+		putchar(i);
+		if (i == 57)
+			i += 39;
 	}
+	putchar('\n');
 	return (0);
 }
